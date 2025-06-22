@@ -5,6 +5,7 @@
 ;
 </style>
 <defs>
+<path class="route tph2" d="M-240,160 L-310.8982,230.89821 A31.07548,31.07548,0,0,0,-320,252.87189 L-320,787.1281 A31.07548,31.07548,0,0,0,-310.8982,809.1018 L230.89821,1350.8982 A31.07548,31.07548,0,0,0,252.87189,1360 L627.1281,1360 A31.07548,31.07548,0,0,1,649.1018,1369.1018 L760,1480" id="route-caltrain_local"/>
 <path class="route tph3" d="M1120,-640 L880,-640" id="route-bart_antioch"/>
 <path class="route tph6" d="M880,-640 L812.8719,-640 A31.07548,31.07548,0,0,0,790.8982,-630.8982 L489.1018,-329.1018 A31.07548,31.07548,0,0,1,467.1281,-320 L332.8719,-320 A31.07548,31.07548,0,0,0,310.8982,-310.8982 L175.10179,-175.10179 A31.07548,31.07548,0,0,0,166,-153.12811 L166,-120" id="route-bart_pittsburg"/>
 <path class="route tph12" d="M160,-120 L160,-40" id="route-bart_k"/>
@@ -17,9 +18,12 @@
 <path class="route tph6" d="M517.87866,442.1213 L990.8982,915.14087 A31.07548,31.07548,0,0,1,1000,937.1145 L1000,1360" id="route-bart_beryessa"/>
 <path class="route tph15" d="M80,0 L-227.12811,0 A31.07548,31.07548,0,0,0,-249.10179,9.101797 L-430.8982,190.89821 A31.07548,31.07548,0,0,0,-440,212.87189 L-440,347.1281 A31.07548,31.07548,0,0,1,-449.1018,369.1018 L-550.8982,470.8982 A31.07548,31.07548,0,0,0,-560,492.8719 L-560,520" id="route-bart_daly"/>
 <path class="route tph9" d="M-566,520 L-566,541.1281 A31.07548,31.07548,0,0,0,-556.8982,563.1018 L-409.1018,710.8982 A31.07548,31.07548,0,0,0,-387.1281,720 L-260,720 A20,20,0,0,1,-240,740 L-240,760" id="route-bart_sfia"/>
-<path class="route tph3" d="M-246,760 L-246,800" id="route-bart_milbrae"/>
+<path class="route tph3" d="M-246,760 L-246,793.1281 A31.07548,31.07548,0,0,1,-255.10179,815.1018 L-280,840" id="route-bart_milbrae"/>
 </defs>
 <g id="routes">
+<use class="route bg caltrain_local tph2" href="#route-caltrain_local"/>
+<use class="route mg caltrain_local tph2" href="#route-caltrain_local"/>
+<use class="route fg caltrain_local tph2" href="#route-caltrain_local"/>
 <use class="route bg bart_antioch tph3" href="#route-bart_antioch"/>
 <use class="route mg bart_antioch tph3" href="#route-bart_antioch"/>
 <use class="route fg bart_antioch tph3" href="#route-bart_antioch"/>
