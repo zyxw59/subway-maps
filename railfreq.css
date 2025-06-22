@@ -1,0 +1,50 @@
+.route {
+  fill: none;
+}
+
+.route.bg {
+  stroke: black;
+  stroke-width: var(--fg-width);
+}
+
+.route.fg {
+  stroke-width: calc(var(--fg-width) - 1px);
+  stroke: var(--fg-color);
+}
+
+.tph15, .tph12, .tph9, .tph6 {
+  --fg-color: red;
+}
+
+.tph4, .tph3, .tph2 {
+  --fg-color: orange;
+}
+
+.tph1 {
+  --fg-color: gold;
+}
+
+.tph15 {
+  --fg-width: 30px;
+}
+.tph12 {
+  --fg-width: 24px;
+}
+.tph9 {
+  --fg-width: 18px;
+}
+.tph6 {
+  --fg-width: 12px;
+}
+.tph4 {
+  --fg-width: 8px;
+}
+.tph3 {
+  --fg-width: 6px;
+}
+.tph2 {
+  --fg-width: 4px;
+}
+.tph1 {
+  --fg-width: 2px;
+}
