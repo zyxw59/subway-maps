@@ -1,14 +1,18 @@
+* {
+  --tph: 2px;
+}
+
 .route {
   fill: none;
 }
 
 .route.bg {
-  stroke: black;
-  stroke-width: var(--fg-width);
+  stroke: none;
+  stroke-width: calc(var(--fg-width) + 1px);
 }
 
 .route.fg {
-  stroke-width: calc(var(--fg-width) - 1px);
+  stroke-width: calc(var(--fg-width));
   stroke: var(--fg-color);
 }
 
@@ -20,31 +24,29 @@
   --fg-color: orange;
 }
 
-.tph1 {
-  --fg-color: gold;
+.infrequent {
+  --fg-color: green;
+  --fg-width: var(--tph) * 2;
 }
 
 .tph15 {
-  --fg-width: 30px;
+  --fg-width: var(--tph) * 15;
 }
 .tph12 {
-  --fg-width: 24px;
+  --fg-width: var(--tph) * 12;
 }
 .tph9 {
-  --fg-width: 18px;
+  --fg-width: var(--tph) * 9;
 }
 .tph6 {
-  --fg-width: 12px;
+  --fg-width: var(--tph) * 6;
 }
 .tph4 {
-  --fg-width: 8px;
+  --fg-width: var(--tph) * 4;
 }
 .tph3 {
-  --fg-width: 6px;
+  --fg-width: var(--tph) * 3;
 }
 .tph2 {
-  --fg-width: 4px;
-}
-.tph1 {
-  --fg-width: 2px;
+  --fg-width: var(--tph) * 2;
 }

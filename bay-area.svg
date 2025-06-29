@@ -6,6 +6,10 @@
 </style>
 <defs>
 <path class="route tph2" d="M-240,160 L-310.8982,230.89821 A31.07548,31.07548,0,0,0,-320,252.87189 L-320,787.1281 A31.07548,31.07548,0,0,0,-310.8982,809.1018 L230.89821,1350.8982 A31.07548,31.07548,0,0,0,252.87189,1360 L627.1281,1360 A31.07548,31.07548,0,0,1,649.1018,1369.1018 L760,1480" id="route-caltrain_local"/>
+<path class="route infrequent" d="M760,-920 L569.1018,-729.1018 A31.07548,31.07548,0,0,1,547.1281,-720 L172.87189,-720 A31.07548,31.07548,0,0,0,150.89821,-710.8982 L9.101797,-569.1018 A31.07548,31.07548,0,0,0,0,-547.1281 L0,140 A20,20,0,0,0,20,160 L211.57176,160 A31.07548,31.07548,0,0,1,233.54544,169.10179 L390.8982,326.45456 A31.07548,31.07548,0,0,1,400,348.42822 L400,387.1281 A31.07548,31.07548,0,0,0,409.1018,409.1018 L670.8982,670.8982 A31.07548,31.07548,0,0,0,692.8719,680 L827.1281,680 A31.07548,31.07548,0,0,1,849.1018,689.1018 L865.85785,705.85785 A20,20,0,0,1,865.85785,734.14215 L649.1018,950.8982 A31.07548,31.07548,0,0,0,640,972.8719 L640,1337.4713 A40.732334,40.732334,0,0,0,651.93024,1366.2733 L762.8284,1477.1716" id="route-capitol_oakland"/>
+<path class="route infrequent" d="M760,-920 L569.1018,-729.1018 A31.07548,31.07548,0,0,1,547.1281,-720 L172.87189,-720 A31.07548,31.07548,0,0,0,150.89821,-710.8982 L9.101797,-569.1018 A31.07548,31.07548,0,0,0,0,-547.1281 L0,140 A20,20,0,0,0,20,160 L211.57176,160 A31.07548,31.07548,0,0,1,233.54544,169.10179 L390.8982,326.45456 A31.07548,31.07548,0,0,1,400,348.42822 L400,387.1281 A31.07548,31.07548,0,0,0,409.1018,409.1018 L470.8982,470.8982 A31.07548,31.07548,0,0,1,480,492.8719 L480,787.1281 A31.07548,31.07548,0,0,0,489.1018,809.1018 L630.8982,950.8982 A31.07548,31.07548,0,0,1,640,972.8719 L640,1337.4713 A40.732334,40.732334,0,0,0,651.93024,1366.2733 L1002.8284,1717.1716" id="route-amtrak"/>
+<path class="route infrequent" d="M1280,-720 L172.87189,-720 A31.07548,31.07548,0,0,0,150.89821,-710.8982 L9.101797,-569.1018 A31.07548,31.07548,0,0,0,0,-547.1281 L0,140 A20,20,0,0,0,20,160 L80,160" id="route-san_joaquins"/>
+<path class="route infrequent" d="M1120,480 L649.1018,950.8982 A31.07548,31.07548,0,0,0,640,972.8719 L640,1337.4713 A40.732334,40.732334,0,0,0,651.93024,1366.2733 L762.8284,1477.1716" id="route-ace"/>
 <path class="route tph3" d="M1120,-640 L880,-640" id="route-bart_antioch"/>
 <path class="route tph6" d="M880,-640 L812.8719,-640 A31.07548,31.07548,0,0,0,790.8982,-630.8982 L489.1018,-329.1018 A31.07548,31.07548,0,0,1,467.1281,-320 L332.8719,-320 A31.07548,31.07548,0,0,0,310.8982,-310.8982 L175.10179,-175.10179 A31.07548,31.07548,0,0,0,166,-153.12811 L166,-120" id="route-bart_pittsburg"/>
 <path class="route tph12" d="M160,-120 L160,-40" id="route-bart_k"/>
@@ -24,6 +28,18 @@
 <use class="route bg caltrain_local tph2" href="#route-caltrain_local"/>
 <use class="route mg caltrain_local tph2" href="#route-caltrain_local"/>
 <use class="route fg caltrain_local tph2" href="#route-caltrain_local"/>
+<use class="route bg capitol_oakland infrequent" href="#route-capitol_oakland"/>
+<use class="route mg capitol_oakland infrequent" href="#route-capitol_oakland"/>
+<use class="route fg capitol_oakland infrequent" href="#route-capitol_oakland"/>
+<use class="route bg amtrak infrequent" href="#route-amtrak"/>
+<use class="route mg amtrak infrequent" href="#route-amtrak"/>
+<use class="route fg amtrak infrequent" href="#route-amtrak"/>
+<use class="route bg san_joaquins infrequent" href="#route-san_joaquins"/>
+<use class="route mg san_joaquins infrequent" href="#route-san_joaquins"/>
+<use class="route fg san_joaquins infrequent" href="#route-san_joaquins"/>
+<use class="route bg ace infrequent" href="#route-ace"/>
+<use class="route mg ace infrequent" href="#route-ace"/>
+<use class="route fg ace infrequent" href="#route-ace"/>
 <use class="route bg bart_antioch tph3" href="#route-bart_antioch"/>
 <use class="route mg bart_antioch tph3" href="#route-bart_antioch"/>
 <use class="route fg bart_antioch tph3" href="#route-bart_antioch"/>
